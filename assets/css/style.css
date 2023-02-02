@@ -22,13 +22,56 @@ header{
 h2{
     text-align: center;
     font-size: 15px;
+    margin-bottom: 2rem;
 }
 
-.row{
+.row {
+    
     background-color: black;
     color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
 }
 .aritisites .row a{
-    color: aqua;
+    color: rgb(76, 176, 234);
     text-decoration: none;
+    display: inline;
+    
 }
+
+.aritisites .row {
+    float: left;
+    width: calc(90% / 3 );
+    
+  
+}
+
+.aritisites ::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row img{
+    float: left;
+    width: calc(100% / 3 );
+   
+      
+}
+
+.row::after{
+content: "";
+display: block;
+clear: both;
+}
+.row div{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ 
+
+
+    
